@@ -1,0 +1,40 @@
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+body {
+  background-color: peachpuff;
+}
+
+figure {
+  height: 40px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  margin-bottom: 1.8rem;
+}
+
+.buttons {
+  width: 90%;
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: rgb(255, 77, 0);
+  color: white;
+  font-size: 1.5rem;
+}
