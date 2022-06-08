@@ -1,0 +1,16 @@
+{
+  "name": "altcampus-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "author": "AltCampus",
+  "license": "GNU GPL V3",
+  "dependencies": {
+    "jest": "^26.0.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
