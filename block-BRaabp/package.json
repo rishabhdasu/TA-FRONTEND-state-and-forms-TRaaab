@@ -1,8 +1,7 @@
 {
   "name": "altcampus-assignment",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests"
   },
@@ -12,5 +11,7 @@
     "jest": "^26.0.1",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
