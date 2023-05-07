@@ -22,77 +22,79 @@ function Form() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Text Input:
-        <input
-          type="text"
-          name="textInput"
-          value={formValues.textInput}
-          onChange={handleInputChange}
-        />
-      </label>
-      <br />
-      <label>
-        Date Input:
-        <input
-          type="date"
-          name="dateInput"
-          value={formValues.dateInput}
-          onChange={handleInputChange}
-        />
-      </label>
-      <br />
-      <label>
-        File Input:
-        <input
-          type="file"
-          name="fileInput"
-          value={formValues.fileInput}
-          onChange={handleInputChange}
-        />
-      </label>
-      <br />
-      <label>
-        Read-Only Input:
-        <input
-          type="text"
-          name="readOnlyInput"
-          value={formValues.readOnlyInput}
-          readOnly
-        />
-      </label>
-      <br />
-      <label>
-        Disabled Input:
-        <input
-          type="text"
-          name="disabledInput"
-          value={formValues.disabledInput}
-          disabled
-        />
-      </label>
-      <br />
-      <label>
-        Textarea Input:
-        <textarea
-          name="textareaInput"
-          value={formValues.textareaInput}
-          onChange={handleInputChange}
-        />
-      </label>
-      <br />
-      <label>
-        Textarea Disabled:
-        <textarea
-          name="textareaDisabled"
-          value={formValues.textareaDisabled}
-          disabled
-        />
-      </label>
-      <br />
-      <button type="submit">Submit</button>
-    </form>
+    <>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Text Input:
+          <input
+            type="text"
+            name="textInput"
+            value={formValues.textInput}
+            onChange={handleInputChange}
+          />
+        </label>
+        <br />
+        <label>
+          Date Input:
+          <input
+            type="date"
+            name="dateInput"
+            value={formValues.dateInput}
+            onChange={handleInputChange}
+          />
+        </label>
+        <br />
+        <label>
+          File Input:
+          <input
+            type="file"
+            name="fileInput"
+            value={formValues.fileInput}
+            onChange={handleInputChange}
+          />
+        </label>
+        <br />
+        <label>
+          Read-Only Input:
+          <input
+            type="text"
+            name="readOnlyInput"
+            value={formValues.readOnlyInput}
+            readOnly
+          />
+        </label>
+        <br />
+        <label>
+          Disabled Input:
+          <input
+            type="text"
+            name="disabledInput"
+            value={formValues.disabledInput}
+            disabled
+          />
+        </label>
+        <br />
+        <label>
+          Textarea Input:
+          <textarea
+            name="textareaInput"
+            value={formValues.textareaInput}
+            onChange={handleInputChange}
+          />
+        </label>
+        <br />
+        <label>
+          Textarea Disabled:
+          <textarea
+            name="textareaDisabled"
+            value={formValues.textareaDisabled}
+            disabled
+          />
+        </label>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </>
   );
 }
 
