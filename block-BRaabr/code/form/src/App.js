@@ -1,6 +1,6 @@
 import "./App.css";
-import Form from "./Form";
-import FormValidation from "./FormValidation";
+import Form from "./Form.js";
+import FormValidation from "./FormValidation.js";
 
 function App() {
   return (
