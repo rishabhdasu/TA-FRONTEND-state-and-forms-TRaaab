@@ -1,0 +1,258 @@
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.3;
+  background-color: #282c34;
+  color: white;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+input,
+select {
+  border: 0;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+a {
+  text-decoration: none;
+}
+.full {
+  width: 100%;
+}
+.font-0 {
+  font: 0;
+}
+.block {
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-center {
+  text-align: center;
+}
+.scroll-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+form {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  padding: 8px;
+  border-radius: 2px;
+}
+
+label {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.file {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  width: 10rem;
+  margin-top: 3rem;
+  font-weight: bold;
+  background-color: rgba(118, 243, 65, 0.651);
+}
